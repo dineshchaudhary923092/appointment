@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="CLIRequest.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697960000000" Dst="0" />
+<file name="ContentSecurityPolicy.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697960000000" Dst="0" />
+<file name="CURLRequest.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697970000000" Dst="0" />
+<file name="DownloadResponse.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697970000000" Dst="0" />
+<file name="Header.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697980000000" Dst="0" />
+<file name="IncomingRequest.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697980000000" Dst="0" />
+<file name="Message.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697980000000" Dst="0" />
+<file name="Negotiate.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697990000000" Dst="0" />
+<file name="RedirectResponse.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697990000000" Dst="0" />
+<file name="Request.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697990000000" Dst="0" />
+<file name="RequestInterface.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697990000000" Dst="0" />
+<file name="Response.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697990000000" Dst="0" />
+<file name="ResponseInterface.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697990000000" Dst="0" />
+<file name="URI.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697990000000" Dst="0" />
+<file name="UserAgent.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697990000000" Dst="0" />
+<file name="CLIRequest.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868800000000" Dst="0" />
+<file name="ContentSecurityPolicy.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868800000000" Dst="0" />
+<file name="CURLRequest.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868800000000" Dst="0" />
+<file name="DownloadResponse.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868800000000" Dst="0" />
+<file name="Header.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868800000000" Dst="0" />
+<file name="IncomingRequest.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868800000000" Dst="0" />
+<file name="Message.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868800000000" Dst="0" />
+<file name="Negotiate.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868800000000" Dst="0" />
+<file name="RedirectResponse.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868800000000" Dst="0" />
+<file name="RequestInterface.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868800000000" Dst="0" />
+<file name="Request.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868800000000" Dst="0" />
+<file name="Response.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868800000000" Dst="0" />
+<file name="URI.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868800000000" Dst="0" />
+<file name="ResponseInterface.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868800000000" Dst="0" />
+<file name="UserAgent.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868800000000" Dst="0" />
+</dwsync>

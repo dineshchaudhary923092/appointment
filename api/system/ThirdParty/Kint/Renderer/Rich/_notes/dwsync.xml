@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="BinaryPlugin.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698340000000" Dst="0" />
+<file name="BlacklistPlugin.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698350000000" Dst="0" />
+<file name="CallablePlugin.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698350000000" Dst="0" />
+<file name="ClosurePlugin.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698350000000" Dst="0" />
+<file name="ColorPlugin.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698350000000" Dst="0" />
+<file name="DepthLimitPlugin.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698350000000" Dst="0" />
+<file name="DocstringPlugin.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698350000000" Dst="0" />
+<file name="MicrotimePlugin.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698350000000" Dst="0" />
+<file name="ObjectPluginInterface.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698360000000" Dst="0" />
+<file name="Plugin.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698360000000" Dst="0" />
+<file name="PluginInterface.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698360000000" Dst="0" />
+<file name="RecursionPlugin.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698360000000" Dst="0" />
+<file name="SimpleXMLElementPlugin.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698360000000" Dst="0" />
+<file name="SourcePlugin.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698360000000" Dst="0" />
+<file name="TablePlugin.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698360000000" Dst="0" />
+<file name="TabPluginInterface.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698370000000" Dst="0" />
+<file name="TimestampPlugin.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698370000000" Dst="0" />
+<file name="TraceFramePlugin.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698370000000" Dst="0" />
+<file name="BinaryPlugin.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="BlacklistPlugin.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="CallablePlugin.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="ClosurePlugin.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="ColorPlugin.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="DepthLimitPlugin.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="DocstringPlugin.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="MicrotimePlugin.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="ObjectPluginInterface.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="Plugin.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="RecursionPlugin.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="PluginInterface.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="SimpleXMLElementPlugin.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="SourcePlugin.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="TablePlugin.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="TabPluginInterface.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="TimestampPlugin.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="TraceFramePlugin.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+</dwsync>

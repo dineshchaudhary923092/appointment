@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AlertError.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697880000000" Dst="0" />
+<file name="CastException.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697880000000" Dst="0" />
+<file name="ConfigException.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697880000000" Dst="0" />
+<file name="CriticalError.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697890000000" Dst="0" />
+<file name="DownloadException.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697890000000" Dst="0" />
+<file name="EmergencyError.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697890000000" Dst="0" />
+<file name="ExceptionInterface.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697890000000" Dst="0" />
+<file name="FrameworkException.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697890000000" Dst="0" />
+<file name="ModelException.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697890000000" Dst="0" />
+<file name="PageNotFoundException.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697890000000" Dst="0" />
+<file name="AlertError.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868200000000" Dst="0" />
+<file name="CastException.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868200000000" Dst="0" />
+<file name="ConfigException.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868200000000" Dst="0" />
+<file name="CriticalError.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868200000000" Dst="0" />
+<file name="DownloadException.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868200000000" Dst="0" />
+<file name="EmergencyError.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868200000000" Dst="0" />
+<file name="ExceptionInterface.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868200000000" Dst="0" />
+<file name="FrameworkException.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868200000000" Dst="0" />
+<file name="ModelException.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868800000000" Dst="0" />
+<file name="PageNotFoundException.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441868800000000" Dst="0" />
+</dwsync>

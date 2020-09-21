@@ -1,0 +1,1792 @@
+{
+			"id": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+			"name": "hospital",
+			"description": "",
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6928651c-647a-437b-bbed-9d48ea58417d",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "ccdd9175-cc4b-4a12-aa2b-960f0ddd6e29",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"variables": [
+				{
+					"key": "base_url",
+					"value": "localhost:8080/",
+					"disabled": false
+				}
+			],
+			"order": [
+				"3395427a-4c94-4d59-a306-e993e3a6cf9b",
+				"bb0f8ed1-921d-471a-a937-a11229499808",
+				"1f68db58-786a-4302-992a-1b3414f86e3c",
+				"cf7db5d1-a46d-4114-a348-f271197a299f",
+				"f63ae7da-eb2c-420e-9c8e-07693ca5b4f8",
+				"b8531ad9-db42-4c76-90a8-f1b7b73220a6",
+				"219f87c6-c2f2-4bc4-8a29-a0159e8537ee",
+				"fc249eb3-55d3-4737-bff4-fb4516b9ad91",
+				"4c4cd16a-cf72-491f-ac46-db7f49904ea8",
+				"46322c6f-c14f-4e42-b67e-653f64737931",
+				"1402e32c-7c21-4b1d-99b2-19173545d4c2",
+				"5f4437eb-81b7-469f-9812-7576bc79d21b",
+				"c17f4251-2c9c-4226-a743-93fc44b85286",
+				"61316643-55a9-4b67-bf0f-8ad06efa4a9d",
+				"7f7d2252-f575-4b5b-8240-71a7cf85d56e",
+				"ca812882-b3f3-43ba-a64b-045a54f4701b",
+				"3273291c-4bb5-4bea-a1fd-12e9e11dab48",
+				"f69fb6e9-c94a-4972-90a4-8df52c5b37a2",
+				"2441904a-70f5-4edc-b54d-21a408fb34ca",
+				"6f66c2d4-5609-4ea4-8b3f-2f9e1db64bee",
+				"bbb828b0-e9a2-4854-ae6e-ad8fe9dfd5dc",
+				"e17beb56-c7cd-434f-973e-132edd3bf8ca"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {},
+			"folders": [],
+			"requests": [
+				{
+					"id": "1402e32c-7c21-4b1d-99b2-19173545d4c2",
+					"name": "Update DP",
+					"url": "{{base_url}}api/v1/update-dp",
+					"description": null,
+					"data": [
+						{
+							"key": "app",
+							"value": "xhr",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "file",
+							"value": "/C:/Users/sharm/OneDrive/Documents/api/assets/images/avatars/avatar3.png",
+							"description": "",
+							"type": "file",
+							"enabled": true
+						}
+					],
+					"dataOptions": {
+						"params": {}
+					},
+					"dataMode": "params",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "8217ee09-e1f3-4294-914c-ab6ece06af76",
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"token\", jsonData.token);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "d336bc8e-5b5d-47e1-a93a-59d7b5b52cc6",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": null,
+					"preRequestScript": null,
+					"tests": "var jsonData = pm.response.json();\r\npm.globals.set(\"token\", jsonData.token);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "1f68db58-786a-4302-992a-1b3414f86e3c",
+					"name": "Contact us",
+					"url": "{{base_url}}api/v1/contact-us",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"urlencoded": {}
+					},
+					"dataMode": "urlencoded",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "219f87c6-c2f2-4bc4-8a29-a0159e8537ee",
+					"name": "Update data",
+					"url": "{{base_url}}api/v1/update-profile",
+					"description": "",
+					"data": [
+						{
+							"key": "callingcode",
+							"value": "91",
+							"description": "country's calling code",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "phone",
+							"value": "9056619452",
+							"description": "//should get otp by calling get-otp and setting type as profile",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "email",
+							"value": "admin@lincollc.net",
+							"description": "to check if email and phone is linked to other account",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "type",
+							"value": "profile",
+							"description": "[signup|reset]",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "hash",
+							"value": "ad9c9ab2b15ecbd83331d0dd0bd16d706421cda722e0474ebe124f8327f51a9e",
+							"description": "From Get OTP",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "timestamp",
+							"value": "1598438117",
+							"description": "From Get OTP",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "name",
+							"value": "Himanshu",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "country",
+							"value": "IN",
+							"description": "short-code for country",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "otp",
+							"value": "6857",
+							"description": "From Get OTP",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "app",
+							"value": "xhr",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "urlencoded",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "b69278b9-d6e5-4c77-a3fe-67882df24fd1",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "6b490445-ee77-4571-9e94-252150b55931",
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"token\", jsonData.token);\r",
+									"// pm.variables.set(\"token\",jsonData.token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": null,
+					"preRequestScript": null,
+					"tests": "var jsonData = pm.response.json();\r\npm.globals.set(\"token\", jsonData.token);\r\n// pm.variables.set(\"token\",jsonData.token);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "2441904a-70f5-4edc-b54d-21a408fb34ca",
+					"name": "delete branch",
+					"url": "{{base_url}}/api/v1/admin/branch/delete",
+					"description": "",
+					"data": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "app",
+							"value": "xhr",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "id",
+							"value": "1",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": {
+						"params": {}
+					},
+					"dataMode": "urlencoded",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "f7f95339-895b-48b6-90e6-d4a81fd9854e",
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"token\", jsonData.token);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "40bbffad-247c-489f-b508-5cadacfa6d93",
+								"exec": [
+									"if(typeof pm.variables.more==\"undefined\"){\r",
+									"pm.variables.set(\"more\", \"\");\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": null,
+					"preRequestScript": "if(typeof pm.variables.more==\"undefined\"){\r\npm.variables.set(\"more\", \"\");\r\n}",
+					"tests": "var jsonData = pm.response.json();\r\npm.globals.set(\"token\", jsonData.token);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "3273291c-4bb5-4bea-a1fd-12e9e11dab48",
+					"name": "Add branch",
+					"url": "{{base_url}}/api/v1/admin/branch/add",
+					"description": "",
+					"data": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "app",
+							"value": "xhr",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "name",
+							"value": "Nagole2",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "id",
+							"value": "1",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": {
+						"params": {}
+					},
+					"dataMode": "urlencoded",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "f7f95339-895b-48b6-90e6-d4a81fd9854e",
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"token\", jsonData.token);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "40bbffad-247c-489f-b508-5cadacfa6d93",
+								"exec": [
+									"if(typeof pm.variables.more==\"undefined\"){\r",
+									"pm.variables.set(\"more\", \"\");\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": null,
+					"preRequestScript": "if(typeof pm.variables.more==\"undefined\"){\r\npm.variables.set(\"more\", \"\");\r\n}",
+					"tests": "var jsonData = pm.response.json();\r\npm.globals.set(\"token\", jsonData.token);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "3395427a-4c94-4d59-a306-e993e3a6cf9b",
+					"name": "Login",
+					"url": "{{base_url}}api/v1/login",
+					"description": null,
+					"data": [
+						{
+							"key": "app",
+							"value": "xhr",
+							"description": "required to get JSON",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "username",
+							"value": "admin@admin.com",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "SECN2020",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "remember",
+							"value": "yes",
+							"description": "store token for 1 month",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "app",
+							"value": "xhr",
+							"description": "",
+							"type": "text",
+							"enabled": false
+						}
+					],
+					"dataOptions": {
+						"urlencoded": {}
+					},
+					"dataMode": "urlencoded",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "b69278b9-d6e5-4c77-a3fe-67882df24fd1",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "6b490445-ee77-4571-9e94-252150b55931",
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"token\", jsonData.token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": null,
+					"preRequestScript": null,
+					"tests": "var jsonData = pm.response.json();\r\npm.globals.set(\"token\", jsonData.token);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "46322c6f-c14f-4e42-b67e-653f64737931",
+					"name": "RESET PASSWORD",
+					"url": "{{base_url}}api/v1/update-password",
+					"description": null,
+					"data": [
+						{
+							"key": "app",
+							"value": "xhr",
+							"description": "required to get JSON",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "secret_key",
+							"value": "74e6490844bd68c6e43a408b827b23d4",
+							"description": "id_enc from login/Get OTP",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "00000000",
+							"description": "new_password",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "old_password",
+							"value": "12345678",
+							"description": "For logged in users",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"description": "For logged in users",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": {
+						"urlencoded": {}
+					},
+					"dataMode": "urlencoded",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "8217ee09-e1f3-4294-914c-ab6ece06af76",
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"token\", jsonData.token);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "d336bc8e-5b5d-47e1-a93a-59d7b5b52cc6",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": null,
+					"preRequestScript": null,
+					"tests": "var jsonData = pm.response.json();\r\npm.globals.set(\"token\", jsonData.token);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "4c4cd16a-cf72-491f-ac46-db7f49904ea8",
+					"name": "RESET PASSWORD OTP",
+					"url": "{{base_url}}api/v1/update-password-otp",
+					"description": "",
+					"data": [
+						{
+							"key": "app",
+							"value": "xhr",
+							"description": "required to get JSON",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "secret_key",
+							"value": "97616a3711b5a84897cc772d547b3731",
+							"description": "id_enc from login/Get OTP",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "active12345",
+							"description": "new_password",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "timestamp",
+							"value": "1597250252",
+							"description": "from GET OTP",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "hash",
+							"value": "2435b4dc5f036dd44bc793e337278f0d592193394a7f17d5a153c4370217a252",
+							"description": "from GET OTP",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "otp",
+							"value": "0751",
+							"description": "from GET OTP",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "urlencoded",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "8217ee09-e1f3-4294-914c-ab6ece06af76",
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"token\", jsonData.token);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "d336bc8e-5b5d-47e1-a93a-59d7b5b52cc6",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": null,
+					"preRequestScript": null,
+					"tests": "var jsonData = pm.response.json();\r\npm.globals.set(\"token\", jsonData.token);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "5f4437eb-81b7-469f-9812-7576bc79d21b",
+					"name": "Verify OTP",
+					"url": "{{base_url}}api/v1/verify-otp",
+					"description": null,
+					"data": [
+						{
+							"key": "type",
+							"value": "reset",
+							"description": "country's calling code",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "hash",
+							"value": "5a8a33603575789661ae27cb91677764766f7974fc72c1b4d9b858a1ef5b7c6b",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "timestamp",
+							"value": "1598357055",
+							"description": "to check if email and phone is linked to other account",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "otp",
+							"value": "4744",
+							"description": "[signup|reset]",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "app",
+							"value": "xhr",
+							"description": "From Get OTP",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": {
+						"urlencoded": {}
+					},
+					"dataMode": "urlencoded",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "b69278b9-d6e5-4c77-a3fe-67882df24fd1",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "6b490445-ee77-4571-9e94-252150b55931",
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"token\", jsonData.token);\r",
+									"// pm.variables.set(\"token\",jsonData.token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": null,
+					"preRequestScript": null,
+					"tests": "var jsonData = pm.response.json();\r\npm.globals.set(\"token\", jsonData.token);\r\n// pm.variables.set(\"token\",jsonData.token);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "61316643-55a9-4b67-bf0f-8ad06efa4a9d",
+					"name": "Get options",
+					"url": "{{base_url}}/api/v1/get-options",
+					"description": "",
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"pathVariables": {}
+				},
+				{
+					"id": "6f66c2d4-5609-4ea4-8b3f-2f9e1db64bee",
+					"name": "Add Department",
+					"url": "{{base_url}}/api/v1/admin/department/add",
+					"description": "",
+					"data": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "app",
+							"value": "xhr",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "name",
+							"value": "Heartbeat",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "id",
+							"value": "2",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "branch",
+							"value": "2",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "file",
+							"value": "/C:/Users/sharm/OneDrive/Documents/api/assets/images/avatars/avatar2.png",
+							"description": "",
+							"type": "file",
+							"enabled": true
+						}
+					],
+					"dataOptions": {
+						"params": {}
+					},
+					"dataMode": "params",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "f7f95339-895b-48b6-90e6-d4a81fd9854e",
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"token\", jsonData.token);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "40bbffad-247c-489f-b508-5cadacfa6d93",
+								"exec": [
+									"if(typeof pm.variables.more==\"undefined\"){\r",
+									"pm.variables.set(\"more\", \"\");\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": null,
+					"preRequestScript": "if(typeof pm.variables.more==\"undefined\"){\r\npm.variables.set(\"more\", \"\");\r\n}",
+					"tests": "var jsonData = pm.response.json();\r\npm.globals.set(\"token\", jsonData.token);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "7f7d2252-f575-4b5b-8240-71a7cf85d56e",
+					"name": "get users",
+					"url": "{{base_url}}/api/v1/admin/get-users",
+					"description": "",
+					"data": [
+						{
+							"key": "search",
+							"value": "",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "type",
+							"value": "",
+							"description": "A|D|R|U",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "app",
+							"value": "xhr",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "more",
+							"value": "{{more}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": {
+						"params": {}
+					},
+					"dataMode": "urlencoded",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "f7f95339-895b-48b6-90e6-d4a81fd9854e",
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"token\", jsonData.token);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "40bbffad-247c-489f-b508-5cadacfa6d93",
+								"exec": [
+									"if(typeof pm.variables.more==\"undefined\"){\r",
+									"pm.variables.set(\"more\", \"\");\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": null,
+					"preRequestScript": "if(typeof pm.variables.more==\"undefined\"){\r\npm.variables.set(\"more\", \"\");\r\n}",
+					"tests": "var jsonData = pm.response.json();\r\npm.globals.set(\"token\", jsonData.token);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "b8531ad9-db42-4c76-90a8-f1b7b73220a6",
+					"name": "Register",
+					"url": "{{base_url}}api/v1/register",
+					"description": null,
+					"data": [
+						{
+							"key": "callingcode",
+							"value": "91",
+							"description": "country's calling code",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "phone",
+							"value": "9056619458",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "email",
+							"value": "sharma.himanshu005@gmail.com",
+							"description": "to check if email and phone is linked to other account",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "type",
+							"value": "signup",
+							"description": "[signup|reset]",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "hash",
+							"value": "91da427ca65cd51c1bc1bebae991d496882214e584780c892f4d6b3821f9172c",
+							"description": "From Get OTP",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "timestamp",
+							"value": "1597229991",
+							"description": "From Get OTP",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "active12345",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "name",
+							"value": "Himanshu Sharma",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "country",
+							"value": "IN",
+							"description": "short-code for country",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "otp",
+							"value": "9832",
+							"description": "From Get OTP",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "app",
+							"value": "xhr",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": {
+						"urlencoded": {}
+					},
+					"dataMode": "urlencoded",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "b69278b9-d6e5-4c77-a3fe-67882df24fd1",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "6b490445-ee77-4571-9e94-252150b55931",
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"token\", jsonData.token);\r",
+									"// pm.variables.set(\"token\",jsonData.token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": null,
+					"preRequestScript": null,
+					"tests": "var jsonData = pm.response.json();\r\npm.globals.set(\"token\", jsonData.token);\r\n// pm.variables.set(\"token\",jsonData.token);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "bb0f8ed1-921d-471a-a937-a11229499808",
+					"name": "Get user details",
+					"url": "{{base_url}}api/v1/get_details",
+					"description": null,
+					"data": [
+						{
+							"key": "app",
+							"value": "xhr",
+							"description": "required to get JSON",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "token",
+							"value": "{{token}}",
+
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "username",
+							"value": "admin@lincollc.net",
+							"description": "EMAIl|Phone",
+							"type": "text",
+							"enabled": false
+						}
+					],
+					"dataOptions": {
+						"urlencoded": {}
+					},
+					"dataMode": "urlencoded",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "8217ee09-e1f3-4294-914c-ab6ece06af76",
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"token\", jsonData.token);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "d336bc8e-5b5d-47e1-a93a-59d7b5b52cc6",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": null,
+					"preRequestScript": null,
+					"tests": "var jsonData = pm.response.json();\r\npm.globals.set(\"token\", jsonData.token);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "bbb828b0-e9a2-4854-ae6e-ad8fe9dfd5dc",
+					"name": "get department",
+					"url": "{{base_url}}/api/v1/admin/department/get",
+					"description": "",
+					"data": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "app",
+							"value": "xhr",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "search",
+							"value": "H",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "branch",
+							"value": "2",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": {
+						"params": {}
+					},
+					"dataMode": "urlencoded",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "f7f95339-895b-48b6-90e6-d4a81fd9854e",
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"token\", jsonData.token);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "40bbffad-247c-489f-b508-5cadacfa6d93",
+								"exec": [
+									"if(typeof pm.variables.more==\"undefined\"){\r",
+									"pm.variables.set(\"more\", \"\");\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": null,
+					"preRequestScript": "if(typeof pm.variables.more==\"undefined\"){\r\npm.variables.set(\"more\", \"\");\r\n}",
+					"tests": "var jsonData = pm.response.json();\r\npm.globals.set(\"token\", jsonData.token);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "c17f4251-2c9c-4226-a743-93fc44b85286",
+					"name": "Add/Edit user data",
+					"url": "{{base_url}}/api/v1/admin/add-user",
+					"description": "Change name and logo",
+					"data": [
+						{
+							"key": "name",
+							"value": "Dinesh",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "type",
+							"value": "R",
+							"description": "A|D|R|U",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "app",
+							"value": "xhr",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "file",
+							"value": "/C:/Users/sharm/OneDrive/Documents/api/assets/images/avatars/user.jpg",
+							"description": "",
+							"type": "file",
+							"enabled": true
+						},
+						{
+							"key": "email",
+							"value": "sharma.himanshu0405@gmail.com",
+							"description": "//only if required to edit",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "00000000",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "phone",
+							"value": "9056619454",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "country",
+							"value": "IN",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "callingcode",
+							"value": "91",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "id",
+							"value": "a34cb92f8aa4f09aa77c9dcda153f382",
+							"description": "",
+							"type": "text",
+							"enabled": false
+						},
+						{
+							"key": "slot_duration",
+							"value": "50",
+							"description": "in minutes",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "branch",
+							"value": "a34cb92f8aa4f09aa77c9dcda153f382",
+							"description": "for D|R",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "department",
+							"value": "a34cb92f8aa4f09aa77c9dcda153f382",
+							"description": "For D|R",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": {
+						"params": {}
+					},
+					"dataMode": "params",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "f7f95339-895b-48b6-90e6-d4a81fd9854e",
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"token\", jsonData.token);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "40bbffad-247c-489f-b508-5cadacfa6d93",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": null,
+					"preRequestScript": null,
+					"tests": "var jsonData = pm.response.json();\r\npm.globals.set(\"token\", jsonData.token);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "ca812882-b3f3-43ba-a64b-045a54f4701b",
+					"name": "delete user",
+					"url": "{{base_url}}/api/v1/admin/delete-user",
+					"description": "",
+					"data": [
+						{
+							"key": "table",
+							"value": "user",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "id",
+							"value": "244279c6c7359c2079b7c30f88313c28",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "app",
+							"value": "xhr",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": {
+						"params": {}
+					},
+					"dataMode": "urlencoded",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "f7f95339-895b-48b6-90e6-d4a81fd9854e",
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"token\", jsonData.token);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "40bbffad-247c-489f-b508-5cadacfa6d93",
+								"exec": [
+									"if(typeof pm.variables.more==\"undefined\"){\r",
+									"pm.variables.set(\"more\", \"\");\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": null,
+					"preRequestScript": "if(typeof pm.variables.more==\"undefined\"){\r\npm.variables.set(\"more\", \"\");\r\n}",
+					"tests": "var jsonData = pm.response.json();\r\npm.globals.set(\"token\", jsonData.token);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "cf7db5d1-a46d-4114-a348-f271197a299f",
+					"name": "Upload files",
+					"url": "{{base_url}}api/v1/upload_file",
+					"description": "",
+					"data": [
+						{
+							"key": "file",
+							"value": "/C:/Users/sharm/OneDrive/Documents/ansh.docx",
+							"description": "",
+							"type": "file",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"pathVariables": {}
+				},
+				{
+					"id": "e17beb56-c7cd-434f-973e-132edd3bf8ca",
+					"name": "delete department",
+					"url": "{{base_url}}/api/v1/admin/department/delete",
+					"description": "",
+					"data": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "app",
+							"value": "xhr",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "id",
+							"value": "1",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": {
+						"params": {}
+					},
+					"dataMode": "urlencoded",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "f7f95339-895b-48b6-90e6-d4a81fd9854e",
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"token\", jsonData.token);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "40bbffad-247c-489f-b508-5cadacfa6d93",
+								"exec": [
+									"if(typeof pm.variables.more==\"undefined\"){\r",
+									"pm.variables.set(\"more\", \"\");\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": null,
+					"preRequestScript": "if(typeof pm.variables.more==\"undefined\"){\r\npm.variables.set(\"more\", \"\");\r\n}",
+					"tests": "var jsonData = pm.response.json();\r\npm.globals.set(\"token\", jsonData.token);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "f63ae7da-eb2c-420e-9c8e-07693ca5b4f8",
+					"name": "Get OTP",
+					"url": "{{base_url}}api/v1/send-otp",
+					"description": null,
+					"data": [
+						{
+							"key": "callingcode",
+							"value": "91",
+							"description": "country's calling code",
+							"type": "text",
+							"enabled": false
+						},
+						{
+							"key": "phone",
+							"value": "8121923092",
+							"type": "text",
+							"enabled": false
+						},
+						{
+							"key": "email",
+							"value": "sharma.himanshu047053@gmail.com",
+							"description": "to check if email and phone is linked to other account",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "type",
+							"value": "profile",
+							"description": "[signup|reset|profile]",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "app",
+							"value": "xhr",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": {
+						"urlencoded": {}
+					},
+					"dataMode": "urlencoded",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "b69278b9-d6e5-4c77-a3fe-67882df24fd1",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "6b490445-ee77-4571-9e94-252150b55931",
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"timestamp\", jsonData.data.token);\r",
+									"pm.globals.set(\"hash\", jsonData.data.hash);\r",
+									"pm.globals.set(\"otp\", jsonData.data.otp);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": null,
+					"preRequestScript": null,
+					"tests": "var jsonData = pm.response.json();\r\npm.globals.set(\"timestamp\", jsonData.data.token);\r\npm.globals.set(\"hash\", jsonData.data.hash);\r\npm.globals.set(\"otp\", jsonData.data.otp);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "f69fb6e9-c94a-4972-90a4-8df52c5b37a2",
+					"name": "get branches",
+					"url": "{{base_url}}/api/v1/admin/branch/get",
+					"description": "",
+					"data": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "app",
+							"value": "xhr",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "name",
+							"value": "Nagole",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "id",
+							"value": "1",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": {
+						"params": {}
+					},
+					"dataMode": "urlencoded",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "f7f95339-895b-48b6-90e6-d4a81fd9854e",
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"token\", jsonData.token);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "40bbffad-247c-489f-b508-5cadacfa6d93",
+								"exec": [
+									"if(typeof pm.variables.more==\"undefined\"){\r",
+									"pm.variables.set(\"more\", \"\");\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": null,
+					"preRequestScript": "if(typeof pm.variables.more==\"undefined\"){\r\npm.variables.set(\"more\", \"\");\r\n}",
+					"tests": "var jsonData = pm.response.json();\r\npm.globals.set(\"token\", jsonData.token);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "fc249eb3-55d3-4737-bff4-fb4516b9ad91",
+					"name": "Request password reset URl",
+					"url": "{{base_url}}api/v1/request-password",
+					"description": "",
+					"data": [
+						{
+							"key": "app",
+							"value": "xhr",
+							"description": "required to get JSON",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "username",
+							"value": "admin@linco.net",
+							"description": "EMAIl|Phone",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "urlencoded",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "8217ee09-e1f3-4294-914c-ab6ece06af76",
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"token\", jsonData.token);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "d336bc8e-5b5d-47e1-a93a-59d7b5b52cc6",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": null,
+					"preRequestScript": null,
+					"tests": "var jsonData = pm.response.json();\r\npm.globals.set(\"token\", jsonData.token);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "c71d4ea9-85dd-4ef4-bd78-50b8e67baedf",
+					"headers": "",
+					"pathVariables": {}
+				}
+			]
+		}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name=".env" server="139.59.71.211//var/www/" local="132426439444897132" remote="132426439450000000" Dst="0" />
+<file name=".gitignore" server="139.59.71.211//var/www/" local="132422092718351271" remote="132425681340000000" Dst="0" />
+<file name="builds" server="139.59.71.211//var/www/" local="132410248901666999" remote="132425681490000000" Dst="0" />
+<file name="composer.json" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425681490000000" Dst="0" />
+<file name="contact.json" server="139.59.71.211//var/www/" local="132418987817783228" remote="132425681500000000" Dst="0" />
+<file name="env" server="139.59.71.211//var/www/" local="132414470089372915" remote="132425681500000000" Dst="0" />
+<file name="license.txt" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425681530000000" Dst="0" />
+<file name="phpunit.xml.dist" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697600000000" Dst="0" />
+<file name="README.md" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697600000000" Dst="0" />
+<file name="spark" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697600000000" Dst="0" />
+<file name=".gitignore" server="185.224.138.92/hospitalapi/" local="132422092718351271" remote="132441870600000000" Dst="0" />
+<file name="appointment.json" server="185.224.138.92/hospitalapi/" local="132441122560038996" remote="132441870600000000" Dst="0" />
+<file name="appointment.sql" server="185.224.138.92/hospitalapi/" local="132429021042085025" remote="132441870600000000" Dst="0" />
+<file name=".env" server="185.224.138.92/hospitalapi/" local="132446538419747433" remote="132446340000000000" Dst="0" />
+<file name="builds" server="185.224.138.92/hospitalapi/" local="132410248901666999" remote="132441870600000000" Dst="0" />
+<file name="composer.json" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870600000000" Dst="0" />
+<file name="contact.json" server="185.224.138.92/hospitalapi/" local="132418987817783228" remote="132441870600000000" Dst="0" />
+<file name="env" server="185.224.138.92/hospitalapi/" local="132414470089372915" remote="132441870600000000" Dst="0" />
+<file name="license.txt" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870600000000" Dst="0" />
+<file name="phpunit.xml.dist" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870600000000" Dst="0" />
+<file name="README.md" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870600000000" Dst="0" />
+<file name="Requirement.docx" server="185.224.138.92/hospitalapi/" local="132425704762366090" remote="132441870600000000" Dst="0" />
+<file name="spark" server="185.224.138.92/hospitalapi/" local="132425702345471732" remote="132441870600000000" Dst="0" />
+<file name="index.html" server="185.224.138.92/hospitalapi/" local="132417772457494737" remote="132441883200000000" Dst="0" />
+</dwsync>

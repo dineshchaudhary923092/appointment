@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AbstractLogger.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698420000000" Dst="0" />
+<file name="InvalidArgumentException.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698420000000" Dst="0" />
+<file name="LoggerAwareInterface.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698420000000" Dst="0" />
+<file name="LoggerAwareTrait.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698430000000" Dst="0" />
+<file name="LoggerInterface.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698430000000" Dst="0" />
+<file name="LoggerTrait.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698430000000" Dst="0" />
+<file name="LogLevel.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698430000000" Dst="0" />
+<file name="NullLogger.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425698430000000" Dst="0" />
+<file name="AbstractLogger.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="InvalidArgumentException.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="LoggerAwareInterface.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="LoggerAwareTrait.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="LoggerInterface.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="LoggerTrait.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="LogLevel.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+<file name="NullLogger.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441870000000000" Dst="0" />
+</dwsync>

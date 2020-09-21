@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="CreateMigration.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697680000000" Dst="0" />
+<file name="CreateSeeder.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697680000000" Dst="0" />
+<file name="Migrate.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697680000000" Dst="0" />
+<file name="MigrateRefresh.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697680000000" Dst="0" />
+<file name="MigrateRollback.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697680000000" Dst="0" />
+<file name="MigrateStatus.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697690000000" Dst="0" />
+<file name="Seed.php" server="139.59.71.211//var/www/" local="132393446680000000" remote="132425697690000000" Dst="0" />
+<file name="CreateMigration.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441867600000000" Dst="0" />
+<file name="CreateSeeder.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441867600000000" Dst="0" />
+<file name="Migrate.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441867600000000" Dst="0" />
+<file name="MigrateRefresh.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441867600000000" Dst="0" />
+<file name="MigrateRollback.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441867600000000" Dst="0" />
+<file name="MigrateStatus.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441867600000000" Dst="0" />
+<file name="Seed.php" server="185.224.138.92/hospitalapi/" local="132393446680000000" remote="132441867600000000" Dst="0" />
+</dwsync>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AuthenticationModel.php" server="139.59.71.211//var/www/" local="132429048499460150" remote="132429048720000000" Dst="0" />
+<file name="CommonModel.php" server="139.59.71.211//var/www/" local="132427581219209923" remote="132427581250000000" Dst="0" />
+<file name="DropboxModel.php" server="139.59.71.211//var/www/" local="132420441642557873" remote="132425681450000000" Dst="0" />
+<file name="EmailModel.php" server="139.59.71.211//var/www/" local="132415650752027494" remote="132425681450000000" Dst="0" />
+<file name="NotificationModel.php" server="139.59.71.211//var/www/" local="132422107393146018" remote="132425681450000000" Dst="0" />
+<file name="AuthenticationModel.php" server="185.224.138.92/hospitalapi/" local="132450187340657912" remote="132449989200000000" Dst="0" />
+<file name="AdminModel.php" server="185.224.138.92/hospitalapi/" local="132450804883978861" remote="132450606600000000" Dst="0" />
+<file name="BranchModel.php" server="185.224.138.92/hospitalapi/" local="132447265435456247" remote="132447067200000000" Dst="0" />
+<file name="CommonModel.php" server="185.224.138.92/hospitalapi/" local="132449331474677040" remote="132449133600000000" Dst="0" />
+<file name="DepartmentModel.php" server="185.224.138.92/hospitalapi/" local="132448196530331681" remote="132447998400000000" Dst="0" />
+<file name="DropboxModel.php" server="185.224.138.92/hospitalapi/" local="132450937641814971" remote="132450811800000000" Dst="0" />
+<file name="EmailModel.php" server="185.224.138.92/hospitalapi/" local="132429316411267457" remote="132441858000000000" Dst="0" />
+<file name="NotificationModel.php" server="185.224.138.92/hospitalapi/" local="132451021706802283" remote="132450830400000000" Dst="0" />
+<file name="DurationModel.php" server="185.224.138.92/hospitalapi/" local="132449809616317440" remote="132449611200000000" Dst="0" />
+<file name="SlotsModel.php" server="185.224.138.92/hospitalapi/" local="132449029614139022" remote="132448831200000000" Dst="0" />
+<file name="timeslotsModel.php" server="185.224.138.92/hospitalapi/" local="132450892354626318" remote="132450694200000000" Dst="0" />
+<file name="HolidayModel.php" server="185.224.138.92/hospitalapi/" local="132449855206620532" remote="132449657400000000" Dst="0" />
+<file name="AppointmentModel.php" server="185.224.138.92/hospitalapi/" local="132451057120004378" remote="132450858600000000" Dst="0" />
+</dwsync>

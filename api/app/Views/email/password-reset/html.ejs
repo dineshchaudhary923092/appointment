@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body style="margin: 0; padding: 0; box-sizing: border-box;">
+    <div style="background: #F3F3F5; height: 100%; box-sizing: border-box; font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif; ">
+        <div style="position: relative; padding: 30px;">
+            <div style="box-sizing: border-box; max-width: 600px; margin: 0 auto; min-height: 100%;">
+                <div style="box-sizing: border-box; padding: 1.5rem 0; background-color:<%-color_background%>;color:<%-color_text%>;  position: absolute; left: 0; top: 0; height:100%; width: 100%; z-index: 1;">
+                    <div style="text-align: center; height: 50px; width: 50px; border-radius: 50%; margin: 0 auto; padding: 1.25rem; background-color:<%-color_background%>;color:<%-color_text%>; ">
+                        <img src="<%-base_url%>assets/images/logo.png" alt="<%-app_name%>" style="height: 100%; width: 100%; object-fit: contain;
+                        border-radius: 50%;">
+                    </div>
+                    <h1 style="text-align: center; color: #fff; font-size: 40px; line-height: 1;">
+                        <%-app_name%>
+                    </h1>
+                </div>
+                <div style="box-sizing: border-box; background: #fff; padding: 2.5rem 1.5rem 70px 1.5rem; z-index: 2; position: relative; text-align: center; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+                    <h1 style="font-size: 30px; font-weight: 400; line-height: 1.6; margin: 0;">Welcome,</h1>
+                    <h1 style="font-size: 36px; font-weight: bolder; line-height: 1.2; margin: 0; color: #BD576E;">
+                        <%-name%>
+                    </h1>
+                    <p style="color: #888; font-weight: 300; line-height: 1.4; font-size: 20px;">
+                        <%-main_message%>
+                    </p>
+                    <div style="text-align: center; padding-top: 0.4rem;">
+                        <% if(type=='link'){ %>
+                            <p style="color: #BD576E;; font-weight: bolder; line-height: 1.4; font-size: 24px;">Your Password:</p>
+                            <span style="background-color:<%-color_background%>;color:<%-color_text%>;  padding: 1rem 2.35rem; min-width: 180px;max-width: 240px; border-radius: 8px; display: inline-block; box-sizing: border-box;"><%-button_text%></span>
+                            <% }else{ %>
+                                <a href="<%-verify_url%>" style="font-weight:bold;background-color:<%-color_background%>;color:<%-color_text%>;  padding: 1rem 2.35rem; min-width: 180px;max-width: 240px; border-radius: 8px; display: inline-block; box-sizing: border-box; text-decoration: none;">Reset Password</a>
+                                <% } %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
