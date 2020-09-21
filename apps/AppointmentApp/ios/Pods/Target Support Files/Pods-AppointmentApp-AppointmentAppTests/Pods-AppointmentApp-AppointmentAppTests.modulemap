@@ -1,0 +1,6 @@
+module Pods_AppointmentApp_AppointmentAppTests {
+  umbrella header "Pods-AppointmentApp-AppointmentAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

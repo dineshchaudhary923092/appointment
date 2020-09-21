@@ -1,0 +1,6 @@
+module Pods_AppointmentApp {
+  umbrella header "Pods-AppointmentApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
