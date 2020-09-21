@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-image-crop-picker/RNImageCropPicker.podspec b/node_modules/react-native-image-crop-picker/RNImageCropPicker.podspec
+index 38bbd27..d2d2810 100644
+--- a/node_modules/react-native-image-crop-picker/RNImageCropPicker.podspec
++++ b/node_modules/react-native-image-crop-picker/RNImageCropPicker.podspec
+@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
+   s.platform     = :ios, "8.0"
+   s.dependency 'React-Core'
+   s.dependency 'React-RCTImage'
+-  s.dependency 'TOCropViewController'
++  s.dependency 'TOCropViewController', '2.5.3'
+ 
+   s.subspec 'QBImagePickerController' do |qb|
+     qb.name             = "QBImagePickerController"
